@@ -1,0 +1,8 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "qa-mart-playwright-tester-plugin",
+  "version": "1.0.0",
+  "description": "Gets any tester productive on QA Mart: team rules, slash prompts, checkout and bug-report skills, planner/healer/reviewer agents, Playwright and QA Mart MCP tools, and guardrails that block .only and edits to app/.",
+  "keywords": ["playwright", "testing", "qa", "qa-mart", "mcp", "hooks"],
+  "license": "MIT"
+}

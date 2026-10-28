@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest"]
+    },
+    "qamart": {
+      "command": "node",
+      "args": ["${PLUGIN_ROOT}/mcp/qamart-server.cjs"],
+      "env": {
+        "QAMART_URL": "http://127.0.0.1:3000"
+      }
+    }
+  }
+}
